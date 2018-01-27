@@ -13,12 +13,12 @@
     to a directory of your choice.
 
   - For PDF output, you'll also need to install LaTeX.
-    We recommend [MiKTeX](http://miktex.org/).
+    We recommend [MiKTeX](https://miktex.org/).
 
 ## macOS
 
   - You can install pandoc using
-    [homebrew](http://brew.sh): `brew install pandoc`.
+    [homebrew](https://brew.sh): `brew install pandoc`.
 
   - There is a package installer at pandoc's [download page].
     If you later want to uninstall the package, you can do so
@@ -54,7 +54,7 @@
     linking, the pandoc binary from this package cannot use lua
     filters that require external lua modules written in C.
 
-    Both a tarball and a deb installer are provided.  To install the deb:
+    Both a tarball and a deb installer are provided.  To install the `deb`:
 
         sudo dpkg -i $DEB
 
@@ -222,7 +222,7 @@ assume that the pandoc source directory is your working directory.
     preceded by a `-` (to force the flag to `false`), and separated
     by spaces.  Pandoc's flags include:
 
-    - `embed_data_files`: embed all data files into the binary (default no).
+    - `embed_data_files`: embed all data files into the binary (default `no`).
       This is helpful if you want to create a relocatable binary.
 
     - `https`:  enable support for downloading resources over https
